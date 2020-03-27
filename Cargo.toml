@@ -1,0 +1,14 @@
+[package]
+name = "pmain"
+version = "0.0.1"
+authors = []
+edition = "2018"
+
+[dependencies]
+hashbrown = { version = "0.6.0", features = [ "nightly" ] }
+
+[[bin]]
+name = "pmain"
+path = "src/main.rs"
+
+
